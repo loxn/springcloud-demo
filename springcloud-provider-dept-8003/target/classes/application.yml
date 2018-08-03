@@ -1,0 +1,13 @@
+server:
+  port: 8003
+spring:
+   application:
+    name: springcloud-provider-dept
+
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: dept-8003.com
+    prefer-ip-address: true
