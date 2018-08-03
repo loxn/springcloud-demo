@@ -12,16 +12,15 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springcloud-eureka</module>
         <module>springcloud-api</module>
-        <module>springcloud-provider-dept-8001</module>
         <module>springcloud-config-server</module>
+        <module>springcloud-eureka</module>
         <module>springcloud-consumer-dept</module>
         <module>springcloud-hystrix-dashboard</module>
-        <module>springcloud-eureka</module>
-        <module>springcloud-zuul</module>
+        <module>springcloud-provider-dept-8001</module>
         <module>springcloud-provider-dept-8002</module>
         <module>springcloud-provider-dept-8003</module>
+        <module>springcloud-zuul</module>
     </modules>
 
     <properties>
